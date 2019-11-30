@@ -1,9 +1,6 @@
-def greeting
-  puts "Hello World"
+def greeting (name)
+  puts "Hello #{name}"
 end
 
-greeting
-greeting
-greeting
-greeting
-greeting
+greeting ("Bob")
+greeting ("Dan")
